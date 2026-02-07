@@ -4,8 +4,7 @@ Un modulo di sondaggio responsive e pulito, realizzato come parte del mio percor
 
 ## 🌟 Anteprima
 
-_(Qui puoi inserire uno screenshot del tuo form. Se non ne hai uno, puoi cancellare questa riga o aggiungerlo dopo aver fatto uno screenshot della pagina)_
-![Anteprima del Progetto](./screenshot.png)
+[anteprima progetto](anteprima.png)
 
 ## 🚀 Funzionalità
 
