@@ -5,7 +5,10 @@ Un modulo di sondaggio responsive e pulito, realizzato come parte del mio percor
 ## 🌟 Anteprima
 
 [anteprima progetto](anteprima.png)
-https://aledev2026.github.io/SurveyForm/
+
+## 🚀 Demo
+
+Puoi visualizzare il progetto live qui: [[Link alla Demo]](https://aledev2026.github.io/SurveyForm/)
 
 ## 🚀 Funzionalità
 
