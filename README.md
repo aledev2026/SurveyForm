@@ -21,6 +21,9 @@ Un modulo di sondaggio responsive e pulito, realizzato come parte del mio percor
 ## 📂 Struttura del Progetto
 
 / (root)
+
 ├── index.html # La struttura principale del form
+
 ├── styles.css # I fogli di stile per il layout e i colori
+
 └── README.md # Documentazione del progetto
