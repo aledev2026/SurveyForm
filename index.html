@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Project</title>
+</head>
+<body>
+    <form action="survey">
+        <label for="name">Nome</label><br>
+        <input type="text" name="name-inp" id="name-inp" placeholder="Inserisci il tuo nome" required><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email-inp" id="email-inp" placeholder="Inserisci la tua email" required><br>
+
+        <label for="age">Età</label><br>
+        <input type="number" name="age-inp" id="age-inp" placeholder="Inserisci la tua età">
+
+        <p>Quale opzione descrive meglio il tuo attuale impiego?</p>
+        <select name="ruolo-sct" id="ruolo-sct">
+            <option value="scegli">Scegli una opzione</option>
+            <option value="studente">Studente</option>
+            <option value="lavoratore">Lavoratore</option>
+            <option value="disoccupato">Disoccupato</option>
+            <option value="altro">Altro</option>
+        </select>
+
+        <p>Consiglieresti il nostro servizio a un amico?</p>
+        <input type="radio" name="consiglio" id="si" value="si">
+        <label for="si">Sì</label>
+        <input type="radio" name="consiglio" id="no" value="no">
+        <label for="no">No</label>
+        <input type="radio" name="consiglio" id="no" value="no">
+        <label for="no-sicuro">Non sono sicuro</label>
+
+        <p>Quale feature ti piace del nostro servizio?</p>
+        <select name="feature-sct" id="feature-sct">
+            <option value="scegli">Scegli una opzione</option>
+            <option value="sfide">Sfide</option>
+            <option value="progetti">Progetti</option>
+            <option value="community">Community</option>
+            <option value="codice-open">Codice Open Source</option>
+        </select>
+
+        <p>Cosa vorresti migliorare del nostro servizio?</p>
+        <input type="checkbox" name="miglioramento" id="front-end" value="front-end">
+        <label for="front-end">Progetti Front End</label>
+        <input type="checkbox" name="miglioramento" id="backend-prog" value="backend-prog">
+        <label for="backend-prog">Progetti Back End</label>
+        <input type="checkbox" name="miglioramento" id="sfide" value="sfide">
+        <label for="sfide">Sfide</label>
+        <input type="checkbox" name="miglioramento" id="altro" value="altro">
+        <label for="altro">Altro</label>
+
+        <p>Se hai un commento o suggerimento, scrivilo qui:</p>
+        <textarea name="commenti" id="commenti" placeholder="Scrivi il tuo commento qui..."></textarea><br>
+        <button type="submit">Invia</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
