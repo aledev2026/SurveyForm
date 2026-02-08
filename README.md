@@ -2,10 +2,6 @@
 
 Un modulo di sondaggio responsive e pulito, realizzato come parte del mio percorso di apprendimento dello sviluppo web. Questo progetto dimostra l'uso di **HTML5** per la struttura semantica e **CSS3** per lo styling moderno.
 
-## 🌟 Anteprima
-
-[anteprima progetto](anteprima.png)
-
 ## 🚀 Demo
 
 Puoi visualizzare il progetto live qui: [[Link alla Demo]](https://aledev2026.github.io/SurveyForm/)
